@@ -1,0 +1,23 @@
+import java.util.Scanner;
+import java.util.Stack;
+
+public class InToPost {
+    public static void main (String[] args) {
+        Scanner input = new Scanner(System.in);
+        String expression;
+        Stack<String> stack = new Stack<>();
+        boolean trigger = true;
+
+        
+        while (trigger == true) {
+            System.out.println("Enter expression to be converted to postfix: ");
+            expression = input.next();
+            
+            for (int i = 0; i > expression.length(); i++) {
+                char[] charArray = expression.toCharArray();
+                char a = charArray[i];
+                
+            }
+        }
+    }
+}
